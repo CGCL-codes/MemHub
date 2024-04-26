@@ -1,4 +1,8 @@
-# MemHub: A Memory Management System for Deep Learning with Limited Memory Resources.
+# MemHub
+
+## Vision
+MemHub is a novel memory management system for DLT with limited memory resources. Itadopts a novel N-to-M mapping between data and memory to enable efficient random data access. This mapping mechanism enables the optimization of batch data loading from storage and batch data prefetching from distributed nodes to minimize the I/O overhead.
+
 ## Install prerequisites
 - Python 3.8
 - Pytorch 1.7.0
